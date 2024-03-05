@@ -6,7 +6,7 @@ export default function Education() {
         Aos.init()
     })
     return (
-        <section id="education" className="text-white bg-gray-900 w-full h-auto flex flex-col justify-center items-center px-12 pt-12 gap-6 overflow-hidden">
+        <section id="education" className="text-white bg-gray-900 w-full h-auto flex flex-col justify-center items-center px-12 pt-32 gap-6 overflow-hidden">
             <h2 className="text-4xl font-semibold" data-aos="fade-down" data-aos-duration="700">My <span className="text-teal-400">Education</span></h2>
             <div className="flex flex-col gap-2">
                 <h2 className="text-2xl mx-2" data-aos="flip-up" data-aos-duration="900">Education</h2>
