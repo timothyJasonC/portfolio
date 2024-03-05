@@ -7,7 +7,7 @@ export default function About() {
     })
     return (
         <section id="about" className="text-white bg-gray-900 w-full h-screen flex flex-col-reverse md:flex-row justify-center items-center px-12 gap-6">
-            <div className="flex items-center md:items-start flex-col gap-4">
+            <div className="flex items-center md:items-start min-[320px]:text-center flex-col gap-4">
                 <h1 data-aos="fade-right" data-aos-duration="1500" className="text-4xl font-bold ">I'm Timothy Jason</h1>
                 <div>
                     <h2 data-aos="fade-right" data-aos-duration="1700" className="text-3xl text-teal-400 " >Fullstack Web Developer</h2>
