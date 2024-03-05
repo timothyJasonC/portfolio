@@ -7,7 +7,7 @@ export default function Projects() {
     Aos.init()
    })
     return (
-        <section id="projects" className="text-white bg-gray-900 w-full h-full pb-[6rem] flex flex-col justify-center items-center px-12 gap-6 pt-32 overflow-hidden">
+        <section id="projects" className="text-white bg-gray-900 w-full h-auto pb-[6rem] flex flex-col justify-center items-center px-12 gap-6 pt-32 overflow-hidden">
             <h2 className="text-4xl font-semibold " data-aos="fade-down">My <span className="text-teal-400">Projects</span></h2>
             <div className="flex flex-col gap-4 mt-4 ">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 items-center ">
