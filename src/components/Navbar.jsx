@@ -6,7 +6,7 @@ export default function Navbar() {
         Aos.init()
     })
     return (
-        <header className="bg-gray-900 bg-opacity-90 w-full h-[4rem] py-4 px-12 md:px-24 text-white fixed">
+        <header className="bg-gray-900 bg-opacity-90 w-full h-[4rem] py-4 px-12 md:px-24 min-[320px]:px-12 text-white fixed">
             <div className="flex items-center gap-2 text-center justify-between">
                 <a href="#" className="text-2xl font-bold font-poppins " data-aos="fade-right" data-aos-duration="2000">Timothy</a>
                 <nav className=" flex gap-3 text-sm tracking-tighter ">
