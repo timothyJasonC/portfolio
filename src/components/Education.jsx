@@ -18,7 +18,7 @@ export default function Education() {
                             </svg>
                         </div>
                         <h3 className="text-teal-400 text-xl my-2">Graduated from Highschool</h3>
-                        <p className="text-sm tracking-wide">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, similique magnam quisquam hic enim voluptas officiis! Dolorum optio unde quo.</p>
+                        <p className="text-sm tracking-wide">Completed my high school education with honors, where I gained valuable skills and knowledge to lay the foundation for my future endeavors..</p>
                     </div>
                     <div data-aos="fade-left" data-aos-duration="1300" className="border-slate-400 border-solid border-4 rounded-lg p-5 bg-slate-300 bg-opacity-30">
                         <div className="flex gap-1">2023-8 → 2024-1
@@ -27,7 +27,7 @@ export default function Education() {
                             </svg>
                         </div>
                         <h3 className="text-teal-400 text-xl my-2">Self-taught</h3>
-                        <p className="text-sm tracking-wide">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, similique magnam quisquam hic enim voluptas officiis! Dolorum optio unde quo.</p>
+                        <p className="text-sm tracking-wide">Embarked on a self-taught journey to deepen my understanding of web development, exploring various resources and tackling real-world projects to sharpen my skills.</p>
                     </div>
                     <div data-aos="fade-right" data-aos-duration="1400" className="border-slate-400 border-solid border-4 rounded-lg p-5 bg-slate-300 bg-opacity-30">
                         <div className="flex gap-1">Now
@@ -36,7 +36,7 @@ export default function Education() {
                             </svg>
                         </div>
                         <h3 className="text-teal-400 text-xl my-2">Bootcamp</h3>
-                        <p className="text-sm tracking-wide">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, similique magnam quisquam hic enim voluptas officiis! Dolorum optio unde quo.</p>
+                        <p className="text-sm tracking-wide">Recently completed an intensive bootcamp program, where I immersed myself in a hands-on learning environment, honing my skills and collaborating with peers on diverse projects.</p>
                     </div>
                 </div>
             </div>
