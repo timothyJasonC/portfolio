@@ -35,14 +35,14 @@ export default function Skills() {
                         </div>
                     </div>
                     <div data-aos="fade-up-left" data-aos-duration="1200" className="h-full text-xl min-[320px]:text-sm w-full py-8 px-8 border-slate-300 border-4 rounded-lg bg-slate-400 bg-opacity-30">
-                        <div className="flex justify-between my-2">
+                        <div className="flex justify-between my-2 gap-2">
                             <span className="">Javascript</span>
                             <span className="">70%</span>
                         </div>
                         <div className="bg-gray-900 h-2 rounded-full relative overflow-hidden">
                             <div className="absolute h-full bg-teal-400 w-[70%]"></div>
                         </div>
-                        <div className="flex justify-between my-2">
+                        <div className="flex justify-between my-2 gap-2">
                             <span className="">MongoDB</span>
                             <span className="">70%</span>
                         </div>
