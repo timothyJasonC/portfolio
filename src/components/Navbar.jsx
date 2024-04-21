@@ -10,13 +10,13 @@ export default function Navbar() {
         setIsMenuOpen(!isMenuOpen);
     };
     return (
-        <header className="bg-gray-900 bg-opacity-90 w-screen h-[4rem] py-4 md:px-24 min-[240px]:px-1 text-white fixed">
-            <div className="flex items-center gap-2 text-center justify-between">
+        <header className="bg-gray-900 bg-opacity-90 w-screen h-[4rem] py-4 min-[240px]:px-1 text-white fixed">
+            <div className="flex items-center gap-2 text-center justify-between px-8 md:px-0">
                 <a href="#" className="text-4xl font-bold font-poppins " data-aos="fade-right" data-aos-duration="2000">Timothy</a>
                 <i className='bx bx-menu' id="menu" onClick={toggleMenu}>
                     {isMenuOpen ? (
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 hover:text-primary ease-in duration-300 ">
-                            <path strokeLinecap="round" strokeLinejoin="round" d="M6 18 18 6M6 6l12 12" />
+                            <path strokeLinitecap="round" strokeLinejoin="round" d="M6 18 18 6M6 6l12 12" />
                         </svg>
                     ) : (
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6  hover:text-primary ease-in duration-300">
