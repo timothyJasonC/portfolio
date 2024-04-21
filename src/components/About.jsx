@@ -1,6 +1,7 @@
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
+import img1 from '../assets/img1.png';
 export default function About() {
     useEffect(() => {
         Aos.init()
@@ -18,7 +19,7 @@ export default function About() {
                     <a data-aos="fade-up" data-aos-duration="2200" href="https://www.instagram.com/ezzel_09026/" className="border-solid w-32 text-center bg-teal-400 border-2 py-2 px-4 rounded-full text-xl font-semibold ease-linear duration-1000 hover:bg-teal-800 " >Let's Talk</a>
                 </div>
             </div>
-            <img data-aos="fade-left" data-aos-duration="2000" className="w-[30vw] rounded-xl" src="https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fG1hbnxlbnwwfHwwfHx8MA%3D%3D" alt="" />
+            <img data-aos="fade-left" data-aos-duration="2000" className="w-[30vw] bg-[rgba(255, 255, 255, .1)] border-[.1rem] border-[rgba(255, 255, 255, .3)] rounded-[50%] img" src={img1} alt="" />
         </section>
     )
 }

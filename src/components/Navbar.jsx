@@ -10,7 +10,7 @@ export default function Navbar() {
         setIsMenuOpen(!isMenuOpen);
     };
     return (
-        <header className="bg-gray-900 bg-opacity-90 w-full h-[4rem] py-4 px-12 md:px-24 text-white fixed">
+        <header className="bg-gray-900 bg-opacity-90 w-full h-[4rem] py-4 px-12 md:px-24 text-white fixed z-50">
             <div className="flex items-center gap-2 text-center justify-between">
                 <a href="#" className="text-4xl font-bold font-poppins " data-aos="fade-right" data-aos-duration="2000">Timothy</a>
                 <i className='bx bx-menu' id="menu" onClick={toggleMenu}>

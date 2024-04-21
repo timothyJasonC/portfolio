@@ -77,3 +77,8 @@
         background-position: 0 0;
     }
 }
+
+.img{
+    filter: drop-shadow(0 0 8rem #2dd4bf);
+    -webkit-filter: drop-shadow(0 0 8rem #2dd4bf);
+}
