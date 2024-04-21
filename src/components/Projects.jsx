@@ -10,6 +10,7 @@ export default function Projects() {
     return (
         <section id="projects" className="text-white bg-gray-900 w-full py-[6rem] flex flex-col justify-center items-center px-12 gap-6 overflow-hidden">
             <h2 className="text-2xl md:text-4xl font-semibold " data-aos="fade-down">My <span className="text-teal-400">Projects</span></h2>
+
             <div className="flex flex-col gap-4 mt-4 ">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 items-center ">
                     <img src={nuartha} className='w-full h-auto rounded-2xl' data-aos="zoom-in" data-aos-duration="1200" />
