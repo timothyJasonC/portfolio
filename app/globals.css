@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.mask-bottom-fade {
+  mask-image: linear-gradient(to top, transparent, black 80%);
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;
