@@ -7,7 +7,7 @@ import { CanvasRevealEffect } from "./ui/CanvasRevealEffect";
 const Approach = () => {
     return (
         <section className="w-full py-20">
-            <h1 className="heading">
+            <h1 className="heading text-black-100">
                 My <span className="text-purple">approach</span>
             </h1>
 
@@ -112,14 +112,12 @@ const Card = ({
             {icon}
           </div>
           <h2
-            // change text-3xl, add text-center
             className="dark:text-white text-center text-3xl opacity-0 group-hover/canvas-card:opacity-100
            relative z-10 text-black mt-4  font-bold group-hover/canvas-card:text-white 
            group-hover/canvas-card:-translate-y-2 transition duration-200"
           >
             {title}
           </h2>
-          {/* add this one for the description */}
           <p
             className="text-sm opacity-0 group-hover/canvas-card:opacity-100
            relative z-10 mt-4 group-hover/canvas-card:text-white text-center
@@ -136,10 +134,6 @@ const Card = ({
 const AceternityIcon = ({ order }: { order: string }) => {
     return (
         <div>
-      {/* this btn is from https://ui.aceternity.com/components/tailwindcss-buttons border magic */}
-      {/* change rounded-lg, text-purple px-5 py-2 */}
-      {/* remove focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 cuz we don't need to focus */}
-      {/* remove text-sm font-medium h-12 , add font-bold text-2xl */}
       <button className="relative inline-flex overflow-hidden rounded-full p-[1px] ">
         <span
           className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite]
