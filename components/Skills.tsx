@@ -10,7 +10,7 @@ const TextWrapper = ({ children }: Props) => {
     const text = React.useRef<HTMLDivElement>(null)
     const { scrollYProgress } = useScroll({
         target: text,
-        offset: ["start end", "center"]
+        offset: ["start end", "start center"]
     })
 
     const opacity = useTransform(scrollYProgress, [1, 0.8, 0], [1, 1, 0])

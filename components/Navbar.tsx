@@ -31,7 +31,7 @@ const Navbar = () => {
         };
     }, []);
 
-    const x = useTransform(scrollYProgress, [0, 0.4, 1], [3000, 0, 0])
+    const x = useTransform(scrollYProgress, [0, 0.4, 1], [2500, 0, 0])
 
 
     return (

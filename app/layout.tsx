@@ -8,9 +8,6 @@ const poppins = Poppins({ subsets: ["latin"], weight: ['400', '600'] });
 export const metadata: Metadata = {
   title: "Timothy's Portfolio",
   description: "Modern & Minimalist Portfolio",
-  icons: {
-    icon: "/icon.svg",
-  },
 };
 
 export default function RootLayout({
