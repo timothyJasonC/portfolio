@@ -6,14 +6,19 @@ import { FaLocationArrow } from 'react-icons/fa'
 
 const Hero = () => {
     return (
-        <div className='pt-36 -z-10 h-[80vh]' id='section1'>
+        <div className='pt-12 md:pt-36 -z-10 md:h-[80vh] pb-12' id='section1'>
             <div>
                 <Spotlight className='-top-40 -left-10 md:-left-32 md:-top-20 h-screen' fill='white' />
                 <Spotlight className='top-10 left-full h-[80vh] w-[50vw]' fill='purple' />
                 <Spotlight className='top-28 left-80 h-[80vh] w-[50vw]' fill='blue' />
             </div>
 
-            <div className='grid grid-cols-2 gap-6'>
+            <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
+
+            <div className='relative h-[30rem] flex justify-center items-center md:hidden'>
+                    <img src="/photo.png" alt="Profile" className='h-full w-auto relative z-10 mask-bottom-fade' />
+                </div>
+
                 <div className='max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col justify-center gap-4 items-center'>
                     <p className="md:tracking-wider font-bold text-4xl text-black-100 mb-4">
                         Hi! I&apos;m Timothy, a Fullstack Web Developer based in Indonesia.
@@ -40,7 +45,7 @@ const Hero = () => {
                     </div>
                 </div>
 
-                <div className='relative h-[30rem] flex justify-center items-center'>
+                <div className='relative max-md:hidden h-[30rem] flex justify-center items-center'>
                     <img src="/photo.png" alt="Profile" className='h-full w-auto relative z-10 mask-bottom-fade' />
                 </div>
             </div>
