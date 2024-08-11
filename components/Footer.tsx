@@ -5,10 +5,8 @@ import { FaGithub } from "react-icons/fa";
 const Footer = () => {
     return (
         <footer className=" text-black-100 py-8 px-4 mt-5 md:px-12">
-            <div className="max-w-screen-xl mx-auto flex justify-between gap-8">
-                <div>
-                    {/* <img src="/path/to/logo.png" alt="Logo" className="h-8 mb-4" /> */}
-
+            <div className="max-w-screen-xl flex flex-col-reverse sm:flex-row mx-auto justify-between sm:gap-8">
+                <div className="">
                     <p>&copy;2024 All rights reserved.</p>
                     <div>
                         <a href="#" className="hover:text-teal-400 mr-4 transition-all">Privacy policy</a>
@@ -31,7 +29,7 @@ const Footer = () => {
                         <Link href={'#section1'} className="mb-2 text-gray-400 hover:text-teal-400 transition-all">Profile</Link>
                         <Link href={'#stack'} className="mb-2 text-gray-400 hover:text-teal-400 transition-all">Skills</Link>
                         <Link href={'#projects'} className="mb-2 text-gray-400 hover:text-teal-400 transition-all">Projects</Link>
-                        
+
                     </ul>
                 </div>
             </div>

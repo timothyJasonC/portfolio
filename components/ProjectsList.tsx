@@ -35,8 +35,8 @@ export default function ProjectsList() {
             {projects.map(({ id, title, des, img, iconLists, link }) => (
                 <div key={id}>
                     <ProjectWrapper >
-                        <div key={id} className="bg-white-100 relative rounded-lg hover:scale-105 shadow-md overflow-hidden transform transition duration-500 lg:min-h-[35rem] h-[35rem] w-96">
-                            <img src={img} alt={title} className="h-64 object-cover" />
+                        <div key={id} className="bg-white-100 relative rounded-lg hover:scale-105 shadow-md overflow-hidden transform transition duration-500 min-h-[30rem] pb-14 sm:min-h-[35rem] w-72 sm:w-96">
+                            <img src={img} alt={title} className="h-52 sm:h-64 object-cover" />
 
                             <div className='flex flex-col justify-between'>
 

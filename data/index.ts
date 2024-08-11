@@ -34,6 +34,14 @@ export const skills = [
 export const projects = [
   {
     id: 1,
+    title: "Meet Connect",
+    des: "Meeting app with third party Zegocloud",
+    img: "/meetconnect.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "Zegocloud.png"],
+    link: "https://meetconnect.vercel.app/",
+  },
+  {
+    id: 2,
     title: "Multi-Warehouse E-Commerce",
     des: "Multi Storage E-commerce is an application using multiple warehouses to speed up delivery and lower shipping costs. Orders are automatically directed to the nearest warehouse, and the admin there handles processing.",
     img: "/weardrobe.webp",
@@ -41,17 +49,17 @@ export const projects = [
     link: "https://jcwd030801.purwadhikabootcamp.com/",
   },
   {
-    id: 2,
+    id: 3,
     title: "Nuartha Company Profile",
-    des: "Recreated the Nuartha Company profile website",
+    des: "Recreated the Nuartha Company profile website.",
     img: "/Nuartha.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
     link: "https://nuartha.vercel.app/",
   },
   {
-    id: 3,
+    id: 4,
     title: "Blog Website",
-    des: "Implement simple CRUD with vue and firebase to make a blog Website",
+    des: "Implement simple CRUD with vue and firebase to make a blog Website.",
     img: "/vue-blog.png",
     iconLists: ["firebase.png", "vue.png", 'bootstrap.png'],
     link: "https://vue-blog-bs.vercel.app/",
