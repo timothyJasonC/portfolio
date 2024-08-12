@@ -44,7 +44,6 @@ const Hero = () => {
                         </a>
                     </div>
                 </div>
-
                 <div className='relative max-md:hidden h-[30rem] flex justify-center items-center'>
                     <img src="/photo.png" alt="Profile" className='h-full w-auto relative z-10 mask-bottom-fade' />
                 </div>
