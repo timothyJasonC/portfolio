@@ -50,7 +50,7 @@ const Navbar = () => {
     const x = useTransform(scrollYProgress, [0, 0.4, 1], xTransform);
 
     return (
-        <nav className={`bg-white bg-opacity-80 px-0 sm:px-12 ${isSticky ? 'fixed top-2 w-full z-50 rounded-full' : 'relative text-4xl bottom-0 w-full font-semibold'}`}>
+        <nav className={`bg-white bg-opacity-80 px-0 sm:px-12 ${isSticky ? 'fixed top-2 w-full z-50 rounded-full' : 'relative text-4xl -bottom-8 w-full font-semibold'}`}>
             <motion.ul
                 style={{ x: x }}
                 className="flex gap-4 pl-4 sm:pl-0 list-none m-0 sm:p-4"

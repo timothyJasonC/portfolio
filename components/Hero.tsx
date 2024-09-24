@@ -24,7 +24,7 @@ const Hero = () => {
                         Hi! I&apos;m Timothy, a Fullstack Web Developer based in Indonesia.
                     </p>
 
-                    <h2 className='uppercase tracking-wide text-sm sm:tracking-widest text-black-200 font-semibold'>
+                    <h2 className='uppercase tracking-wide text-[12px] sm:tracking-widest text-black-200 font-semibold'>
                         I&apos;m an aspiring web developer with hands-on experience in building web applications using modern technologies such as TypeScript, Next.js, Express.js, and Tailwind CSS. I have worked on projects including company profiles, ticketing platforms, and e-commerce systems, and I&apos;m proficient in integrating third-party services and managing databases with MySQL. Eager to continue learning and honing my skills, I enjoy collaborating in team environments and am committed to delivering quality work.
                     </h2>
 
