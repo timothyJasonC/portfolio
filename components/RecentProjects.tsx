@@ -6,7 +6,6 @@ import ProjectsList from './ProjectsList'
 const RecentProjects = () => {
     const secRef = React.useRef<HTMLDivElement>(null);
     const { scrollYProgress } = useScroll({
-        //target is the element that we want to track
         target: secRef,
         offset: ["start end", "end start"],
     });
