@@ -53,7 +53,7 @@ export const projects = [
     title: "Art Galleries",
     des: "Gallery app version 2, using unsplash to generate random image and slicing ui with vanilla css to make grid area",
     img: "/art-galleries.png",
-    iconLists: ["/react.png", "/tail.svg", "/ts.svg", "firebase.png"],
+    iconLists: ["/react.png", "/tail.svg", "/ts.svg"],
     link: "https://art-gals-timothyjasoncs-projects.vercel.app/",
   },
   {
